@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="3dp"
+    android:paddingTop="56dp"
+    tools:context="com.example.murtuza.feeder.UI.Science">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/ScientificAmerican"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Scientific American"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/Sciencenpr"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ScientificAmerican"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="11dp"
+        android:text="Science:NPR"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addsnpr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/ScientificAmerican"
+        android:text="Add"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/FlowingData"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Sciencenpr"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="11dp"
+        android:text="Flowing Data"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addfd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Sciencenpr"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/Io9"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/FlowingData"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="11dp"
+        android:text="Io9"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/FlowingData"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/ScienceMag"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Io9"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="11dp"
+        android:text="Science Magazine"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addsm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Io9"
+        android:text="Add" />
+
+
+</RelativeLayout>

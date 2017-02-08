@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="3dp"
+    android:paddingTop="56dp"
+    tools:context="com.example.murtuza.feeder.UI.Comics">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/xkcd"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginStart="0dp"
+        android:text="XKCD Comics"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addxk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/TheOatMeal"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/xkcd"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="11dp"
+        android:text="The OatMeal"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/xkcd"
+        android:text="Add"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tgmac"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TheOatMeal"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="11dp"
+        android:text="Gentleman's Armchair"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addgmac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/TheOatMeal"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/ThingsInSquares"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tgmac"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="11dp"
+        android:text="Things in squares"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addtis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tgmac"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/Pidjin"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ThingsInSquares"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="11dp"
+        android:text="Pidjins Comics"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addpj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/ThingsInSquares"
+        android:text="Add" />
+
+
+</RelativeLayout>

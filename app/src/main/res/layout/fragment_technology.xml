@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="3dp"
+    android:paddingTop="56dp"
+    tools:context="com.example.murtuza.feeder.UI.Technology">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/Techcrunch"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Techcrunch"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addtc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/AndroidAuthority"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Techcrunch"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="11dp"
+        android:text="Android Authority"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Techcrunch"
+        android:text="Add"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/DigitalTrends"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/AndroidAuthority"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="11dp"
+        android:text="Digital Trends"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/adddt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/AndroidAuthority"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/Endgagdet"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/DigitalTrends"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="11dp"
+        android:text="Engagdet"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/adden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/DigitalTrends"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/Mashable"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Endgagdet"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="11dp"
+        android:text="Mashable"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="24sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/addmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Endgagdet"
+        android:text="Add" />
+
+
+</RelativeLayout>
